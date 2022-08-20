@@ -1,0 +1,195 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homepage{
+    margin-top: 200px;
+    width: auto;
+    height: 100vh;
+    background-image:linear-gradient(rgba(104, 107, 110, 0.719), rgba(67, 78, 80, 0.3));
+    clip-path: polygon(100% 0%, 100% 88%, 50% 100%, 0% 88%, 0% 0%);
+    background-size: 100% 100%;
+}
+
+.navbar{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #385a8d;
+width:auto;
+height: 200px;
+margin:0 auto;
+border: 3px solid rgb(22, 20, 20);
+align-items: center;
+}
+
+.brick{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(59, 54, 48);
+    display: flex ;
+    fill:rgba(55, 68, 109, 0.74);
+
+}
+
+/* *****************************************brands css start***************************************** */
+.brands{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(50, 64, 110); */
+    display: flex;
+    place-items: center;
+    
+}
+
+
+/* *****************************************puma***************************************** */
+
+.puma img{
+    padding: 15px ;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
+} 
+.puma{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.puma img:hover{
+    transform: scale(1.4);
+
+}
+
+.puma::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************puma***************************************** */
+
+
+/* *****************************************nike***************************************** */
+
+.nike img{
+    padding: 15px ;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
+} 
+.nike{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.nike img:hover{
+    transform: scale(1.4);
+
+}
+
+.nike::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************nike***************************************** */
+
+/* *****************************************adidas***************************************** */
+
+.adidas img{
+    padding: 15px ;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
+} 
+.adidas{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.adidas img:hover{
+    transform: scale(1.4);
+
+}
+
+.adidas::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************adidas***************************************** */
+
+/* *****************************************brands css end***************************************** */
+
+
+/* *****************************************Contact form Start***************************************** */
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0
+}
+
+.contact h2{
+    color: grey
+}
+
+.contact p{
+    color: grey
+}
+.form_button button{
+    border-radius: 100px;
+    margin: 0 8px;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    background: transparent
+}
+form:hover .form_button button{
+    color:grey;
+    border: 2px solid grey;
+    background: white;
+    box-shadow:0 0 20px 0 rgba(104, 107, 110, 0.719)
+}
+
+/* *****************************************Contact form End**************************************** */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(46, 58, 82); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/* *****************************************Footer**************************************** */
+
+.footer-bs{
+    /*position: absolute; */
+    width: 100%;
+    min-height: 320px;
+    bottom: 40px;
+    left: 0;
+}

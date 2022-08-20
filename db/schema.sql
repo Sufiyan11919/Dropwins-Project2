@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS Shopping_cart;
+
+CREATE DATABASE Shopping_cart;

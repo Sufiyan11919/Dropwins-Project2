@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.homepage{
+    width: 100%;
+    height: 100vh;
+	background-image:  url('../images/logo_edit1.png');
+    background:linear-gradient(#0f0c29, #302b63, #24243e);
+    /* background: linear-gradient(rgba(3, 50, 75, 0.3), rgba(20, 3, 59, 0.3)); */
+    /* clip-path: polygon(0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5); */
+    /* background-image: url(../images/logo_edit.png); */
+    
+    background-size: 100% 100%;
+    /* position: relative; */
+}
+
+.homepage:before{
+    opacity: .2;
+    content: "";
+    position: absolute;
+    top:0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%; 
+    /* background:linear-gradient(to top, #bdc3c7 0%,  #2c3e50 50%); */
+    background:linear-gradient(to right,#0f0c29, #302b63, #24243e);
+    z-index: -1;
+    
+}
+
+.navbar a{
+    color: beige;
+}
+
+.nav-item a{
+    color: beige;
+}
+
+
+.dropdown-menu a{
+    color: #66afeb;
+}
+
+.homepage-section{
+    height: inherit;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.center-text{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left:50%
+    transform translate(-50%, -50%)
+}
+
+.center-text h1{
+    font-size: 2rem;
+    color: black;
+}
+
+
+.center-text p{
+    font-size: 1.5rem;
+    padding: 2px 0 2px 0;
+    color: black;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.center-text h2{
+    color:black;
+    padding: 0 0 20px 0 ;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+.home-buttons a{
+    border: 2px solid grey;
+    border-radius: 100px;
+    margin: 0 8px;
+    padding: 14px 30px;
+    outline: none;
+    color:grey;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+
+    
+}
+
+.home-buttons a:hover{
+    color: black;
+    background: beige;
+    text-decoration: none;
+    box-shadow:0 0 20px 0 rgba(104, 107, 110, 0.719);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+

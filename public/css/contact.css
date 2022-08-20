@@ -1,0 +1,47 @@
+.contact-box{
+    height: 60px;
+    width: 40px;
+    padding: 20px auto;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    background:linear-gradient(#0f0c29, #302b63, #24243e);;
+}
+
+.contact h2{
+    color: grey
+}
+
+.contact p{
+    color: grey
+}
+
+form:hover
+
+.form_button button{
+    border: 2px solid grey;
+    border-radius: 100px;
+    margin: 0 8px;
+    padding: 14px 30px;
+    outline: none;
+    color:#0f0c29;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    background: transparent
+}
+
+
+form:hover .form_button button{
+    /* background: black; */
+    /* background: grey; */
+    background: white;
+    
+    box-shadow:0 0 20px 0 rgba(104, 107, 110, 0.719);
+    z-index: 99;
+
+}
